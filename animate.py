@@ -1,16 +1,8 @@
-"""
-Simple script for creating animated sprites in pygame
-"""
-
 __author__ = 'Joshua Akangah'
 
 import pygame
-from os import path
-# from main import screen
 
-working_dir = path.dirname(__file__)
-
-class Animation():
+class Animation:
     """
     Class animation
     """
@@ -72,6 +64,5 @@ class Animation():
         """
 
         if self.images.index(self.get_current_image()) == len(self.images) - 1:
-            self.index
             return True
         return False
