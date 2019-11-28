@@ -14,6 +14,7 @@ class Animation:
         :param frame_duration: The amount of time (in seconds) between each frame.  By default it is set to 0.1
         :param scale: Scale factor to use to scale sprites
         eg. A scale of 0.5 scales the image to half its size
+        The full path of the sprites have to be included in the string
         """
         self.images = []
         for i in sprites:
