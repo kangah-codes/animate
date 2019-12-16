@@ -67,3 +67,11 @@ class Animation:
         if self.images.index(self.get_current_image()) == len(self.images) - 1:
             return True
         return False
+
+ """
+ TODO 
+ add support for scaling animations
+ other cool animations
+ fading animations
+ 
+ """
