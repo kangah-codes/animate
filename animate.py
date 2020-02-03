@@ -64,9 +64,7 @@ class Animation:
         :return: bool
         """
 
-        if self.images.index(self.get_current_image()) == len(self.images) - 1:
-            return True
-        return False
+        return self.images.index(self.get_current_image()) == len(self.images) - 1
 
  """
  TODO 
